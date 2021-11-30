@@ -1,0 +1,85 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Rat",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#bool"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#specialfunction"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.rat",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.rat",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.rat",
+					"match": "\\\\."
+				}
+			]
+		},
+		"operators": {
+			"patterns": [{
+				"match": "!=|<=|>=|==|<|>",
+				"name": "keyword.operator.comparison.rat"
+			  },
+			  {
+				"match": "=",
+				"name": "keyword.operator.assignment.rat"
+			  },
+			  {
+				"match": "%|\\*|/|-|\\+",
+				"name": "keyword.operator.rat"
+			}]
+		},
+		"bool": {
+			"patterns": [{
+				"name": "constant.language.rat",
+				"match": "\\b(true|false)\\b"
+			}]
+		},
+		"numbers": {
+			"patters": [{
+				"match": "\\b(-?[0-9]+)\\b",
+				"name": "constant.numeric.decimal.rat"
+			}]
+		},
+		"types": {
+			"patterns": [{
+				"name": "entity.name.type.rat",
+				"match": "\\b(int|rat|bool|const)\\b"
+			}]
+		},
+		"specialfunction": {
+			"patterns": [{
+				"name": "support.function.rat",
+				"match": "\\b(print|call|num|denom)\\b"
+			}]
+		}
+	},
+	"scopeName": "source.rat"
+}

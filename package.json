@@ -1,0 +1,25 @@
+{
+    "name": "RatHigh",
+    "displayName": "RAT Highlights",
+    "description": "Syntax highlight for the RAT language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rat",
+            "aliases": ["Rat", "rat", "RAT"],
+            "extensions": [".rat"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rat",
+            "scopeName": "source.rat",
+            "path": "./syntaxes/rat.tmLanguage.json"
+        }]
+    }
+}

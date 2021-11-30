@@ -2,7 +2,7 @@
     "name": "RatHigh",
     "displayName": "RAT Highlights",
     "description": "Syntax highlight for the RAT language",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "DinoGurnari",
     "icon": "assets/logo.jpg",
     "engines": {

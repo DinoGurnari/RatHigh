@@ -3,6 +3,7 @@
     "displayName": "RAT Highlights",
     "description": "Syntax highlight for the RAT language",
     "version": "0.0.1",
+    "publisher": "DinoGurnari",
     "engines": {
         "vscode": "^1.62.0"
     },

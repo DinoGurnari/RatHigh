@@ -4,6 +4,7 @@
     "description": "Syntax highlight for the RAT language",
     "version": "0.0.1",
     "publisher": "DinoGurnari",
+    "icon": "assets/logo.jpg",
     "engines": {
         "vscode": "^1.62.0"
     },

@@ -9,3 +9,7 @@ Only the most basic highlights, semantic not implemented.
 ### 1.0.0
 
 Initial release of the extension.
+
+### 1.0.7
+
+Adding *struct* and *new* keywords and the operator *&* for dereferencing pointers.

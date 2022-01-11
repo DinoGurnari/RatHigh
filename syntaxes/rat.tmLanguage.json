@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rat",
-				"match": "\\b(if|while|else|for|return)\\b"
+				"match": "\\b(if|while|else|for|return|struct)\\b"
 			}]
 		},
 		"strings": {
@@ -52,7 +52,7 @@
 				"name": "keyword.operator.assignment.rat"
 			  },
 			  {
-				"match": "%|\\*|/|-|\\+",
+				"match": "%|\\*|/|-|\\+|\\&",
 				"name": "keyword.operator.rat"
 			}]
 		},
@@ -77,7 +77,7 @@
 		"specialfunction": {
 			"patterns": [{
 				"name": "support.function.rat",
-				"match": "\\b(print|call|num|denom)\\b"
+				"match": "\\b(print|call|num|denom|new)\\b"
 			}]
 		}
 	},

@@ -77,7 +77,7 @@
 		"specialfunction": {
 			"patterns": [{
 				"name": "support.function.rat",
-				"match": "\\b(print|call|num|denom|new)\\b"
+				"match": "\\b(print|call|num|denom|new|typedef)\\b"
 			}]
 		}
 	},

@@ -22,6 +22,9 @@
 		},
 		{
 			"include": "#specialfunction"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {

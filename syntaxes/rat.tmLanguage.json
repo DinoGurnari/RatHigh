@@ -71,7 +71,7 @@
 		"types": {
 			"patterns": [{
 				"name": "entity.name.type.rat",
-				"match": "\\b(int|rat|bool|const)\\b"
+				"match": "\\b(int|rat|bool|const|[A-Z][a-zA-Z]+)\\b"
 			}]
 		},
 		"specialfunction": {

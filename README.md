@@ -13,3 +13,7 @@ Initial release of the extension.
 ### 1.0.7
 
 Adding *struct* and *new* keywords and the operator *&* for dereferencing pointers.
+
+### 1.1.0
+
+Custom types
